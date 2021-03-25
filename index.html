@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DogeGarden | Landing</title>
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/80551136?s=280&amp;v=4">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body style="background: #33404d !important; margin: 0" onload="hideHint()">
+  <!-- Hinting look -->
+  <div id="look">
+    <div style="background: #1f2933; height: 77px"></div>
+  </div>
+
+  <!-- NoJs -->
+  <noscript>
+    <style>
+      a {
+        color: #fff;
+        text-decoration: none;
+        -webkit-transition: color .2s;
+        transition: color .2s;
+      }
+
+      a:hover {
+        color: #008cff;
+      }
+    </style>
+    <div style="font-family: 'Segoe ui'; font-weight: 300; text-align: center; color: #fff">
+      <img src="https://gblobscdn.gitbook.com/orgs%2F-MVs8IgwjhdWAKl3BEcR%2Favatar-1615849813475.png?alt=media"
+        className="logo"></img>
+      <h1>DogeGarden</h1>
+      <p>View, manage and explore statistics and historical data from <a target="_blank"
+          href="dogehouse.tv">dogehouse.tv</a><br>Made possible by <a
+          href="https://github.com/dogegarden/dogehouse-js">dogehouse-js</a> & <a
+          href="https://github.com/dogegarden/dogehouse-api">dogehouse-api</a></p>
+      <p style="color: rgb(62, 165, 255)">
+        You need to enable JavaScript to view the content on this site.
+      </p>
+    </div>
+  </noscript>
+
+  <!-- Root -->
+  <div id="root"></div>
+
+  <!-- Main React Import -->
+  <script type="module" src="/src/main.tsx" defer></script>
+  <script defer>
+    function hideHint() {
+      document.getElementById('look').setAttribute('hidden', "");
+    }
+  </script>
+</body>
+
+</html>
