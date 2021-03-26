@@ -1,11 +1,11 @@
 {
-  "name": "haticus-app",
+  "name": "dogegarden-landing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3005",
     "export": "next export"
   },
   "dependencies": {
