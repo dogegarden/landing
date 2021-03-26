@@ -247,40 +247,36 @@ const Hero = () => {
           <h2 className='text-center text-gray-400 text-sm font-semibold uppercase tracking-wide'>
             Responsible for great community tools
           </h2>
-          <div className='mt-8 grid grid-cols-1 gap-8 md:gap-20 md:grid-cols-3'>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
-              <a
-                href='https://github.com/dogegarden/dogehouse-api'
-                target='_blank'>
-                <img
-                  className='h-12'
-                  src='/images/dogehouse-api.svg'
-                  alt='DogeHouse API Logo'
-                />
-              </a>
-            </div>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
-              <a
-                href='https://github.com/dogegarden/dogehouse.js'
-                target='_blank'>
-                <img
-                  className='h-12'
-                  src='/images/dogehouse.js.svg'
-                  alt='DogeHouse.js Logo'
-                />
-              </a>
-            </div>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
-              <a
-                href='https://github.com/dogegarden/dogegarden-stats'
-                target='_blank'>
-                <img
-                  className='h-12'
-                  src='/images/dogegarden-stats.svg'
-                  alt='DogeGarden Stats Logo'
-                />
-              </a>
-            </div>
+          <div className='mt-8 flex flex-col lg:flex-row items-center justify-center gap-y-8 lg:gap-y-0 lg:gap-x-16'>
+            <a
+              href='https://github.com/dogegarden/dogehouse-api'
+              target='_blank'>
+              <img
+                className='h-12'
+                src='/images/dogehouse-api.svg'
+                alt='DogeHouse API Logo'
+              />
+            </a>
+
+            <a
+              href='https://github.com/dogegarden/dogehouse.js'
+              target='_blank'>
+              <img
+                className='h-12'
+                src='/images/dogehouse.js.svg'
+                alt='DogeHouse.js Logo'
+              />
+            </a>
+
+            <a
+              href='https://github.com/dogegarden/dogegarden-stats'
+              target='_blank'>
+              <img
+                className='h-12'
+                src='/images/dogegarden-stats.svg'
+                alt='DogeGarden Stats Logo'
+              />
+            </a>
           </div>
         </div>
       </div>
