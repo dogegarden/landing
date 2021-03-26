@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <title>
           {settings.title} - {settings.name}
         </title>
-        <link rel='icon' type='image/png' href='/logo.png' />
+        <link rel='icon' type='image/png' href={settings.favicon} />
       </Head>
       <Component {...pageProps} />
     </>

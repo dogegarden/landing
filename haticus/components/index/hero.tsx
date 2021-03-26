@@ -85,7 +85,7 @@ const Hero = () => {
                       <span className='sr-only'>{settings.name}</span>
                       <img
                         className='h-8 w-auto'
-                        src='/logo-header.svg'
+                        src={settings.headerLogo}
                         alt={`${settings.name} Logo`}
                       />
                     </a>
@@ -163,7 +163,7 @@ const Hero = () => {
                       <a>
                         <img
                           className='h-8 w-auto'
-                          src='/logo-header.svg'
+                          src={settings.headerLogo}
                           alt={`${settings.name} Logo`}
                         />
                       </a>

@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dc: '#DDA945',
-        dcd: '#CE9E41',
-        dcl: '#ECB44A',
-        ghc: '#141920'
+        dc: '#DDA945', // Doge Color
+        dcd: '#CE9E41', // Doge Color Dark
+        dcl: '#ECB44A', // Doge Color Light
+        ghc: '#141920', // GitHub Color
+        ghcl: '#1d2024' // GitHub Color Light
       }
     }
   },
