@@ -122,7 +122,7 @@ const Hero = () => {
                     Home
                   </a>
                 </Link>
-                <Link href='/documentation'>
+                <Link href='https://wiki.dogehouse.xyz/'>
                   <a className='font-medium text-gray-500 hover:text-gray-900'>
                     Documentation
                   </a>
