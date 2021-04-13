@@ -130,9 +130,9 @@ const Hero = () => {
                   className='font-medium text-gray-500 hover:text-gray-900'>
                   GitHub
                 </a>
-                <Link href='https://github.com/JackCrispy/tutorialbot/'>
+                <Link href='https://wiki.dogehouse.xyz/en/dogehousejs/examples/'>
                   <a className='font-medium text-gray-500 hover:text-gray-900'>
-                    Example
+                    Examples
                   </a>
                 </Link>
               </div>

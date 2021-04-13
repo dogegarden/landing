@@ -6,7 +6,7 @@ const Footer = () => {
           <a
             href='https://github.com/dogegarden/dogegarden-landing'
             target='_blank'
-            className='text-gray-500 hover:text-gray-600'>
+            className='text-gray-500 hover:text-gray-900'>
             <span className='sr-only'>GitHub</span>
             <svg
               className='h-6 w-6'
@@ -21,6 +21,15 @@ const Footer = () => {
             </svg>
           </a>
         </div>
+
+        <a
+          href='https://discord.gg/E9BndHyQG8'
+          target='_blank'
+          className='text-gray-500 hover:text-gray-900'>
+          <span className='sr-only'>GitHub</span>
+          <img src="https://i.imgur.com/S7HPwcE.png" width="32" height="32">
+          </img>
+        </a>
         <div className='mt-8 md:mt-0 md:order-1'>
           <p className='text-center text-base text-gray-500'>
             &copy; 2021 DogeGarden. All rights reserved.
