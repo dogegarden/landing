@@ -1,3 +1,5 @@
+import { settings } from '../../settings';
+
 const Footer = () => {
   return (
     <footer className='bg-white'>
@@ -27,7 +29,7 @@ const Footer = () => {
           target='_blank'
           className='text-gray-500 hover:text-gray-900'>
           <span className='sr-only'>GitHub</span>
-          <img src="https://i.imgur.com/S7HPwcE.png" width="32" height="32">
+          <img src={settings.discordLogo} width="32" height="32">
           </img>
         </a>
         <div className='mt-8 md:mt-0 md:order-1'>
