@@ -117,11 +117,6 @@ const Hero = () => {
                 </div>
               </div>
               <div className='hidden md:flex md:space-x-10'>
-                <Link href='/'>
-                  <a className='font-medium text-gray-500 hover:text-gray-900'>
-                    Home
-                  </a>
-                </Link>
                 <Link href='https://wiki.dogehouse.xyz/'>
                   <a className='font-medium text-gray-500 hover:text-gray-900'>
                     Documentation
@@ -131,8 +126,13 @@ const Hero = () => {
                   href='https://github.com/dogegarden'
                   target='_blank'
                   className='font-medium text-gray-500 hover:text-gray-900'>
-                  Github Organization
+                  GitHub
                 </a>
+                <Link href='https://github.com/JackCrispy/tutorialbot/blob/main/index.js'>
+                  <a className='font-medium text-gray-500 hover:text-gray-900'>
+                    Example
+                  </a>
+                </Link>
               </div>
             </nav>
           </div>
@@ -194,11 +194,6 @@ const Hero = () => {
                   </div>
                 </div>
                 <div className='px-2 pt-2 pb-3 space-y-1'>
-                  <Link href='/'>
-                    <a className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'>
-                      Home
-                    </a>
-                  </Link>
                   <Link href='https://wiki.dogehouse.xyz/'>
                     <a className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'>
                       Documentation
@@ -208,7 +203,7 @@ const Hero = () => {
                     href='https://github.com/dogegarden'
                     target='_blank'
                     className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'>
-                    GitHub Organization
+                    GitHub
                   </a>
                 </div>
               </div>
