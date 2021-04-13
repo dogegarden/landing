@@ -128,7 +128,7 @@ const Hero = () => {
                   className='font-medium text-gray-500 hover:text-gray-900'>
                   GitHub
                 </a>
-                <Link href='https://github.com/JackCrispy/tutorialbot/blob/main/index.js'>
+                <Link href='https://github.com/JackCrispy/tutorialbot/'>
                   <a className='font-medium text-gray-500 hover:text-gray-900'>
                     Example
                   </a>
