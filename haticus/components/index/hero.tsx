@@ -139,7 +139,7 @@ const Hero = () => {
 
           {/*
           Mobile menu, show/hide based on menu open state.
-  
+
           Entering: "duration-150 ease-out"
             From: "opacity-0 scale-95"
             To: "opacity-100 scale-100"
@@ -199,7 +199,7 @@ const Hero = () => {
                       Home
                     </a>
                   </Link>
-                  <Link href='/documentation'>
+                  <Link href='https://wiki.dogehouse.xyz/'>
                     <a className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'>
                       Documentation
                     </a>
