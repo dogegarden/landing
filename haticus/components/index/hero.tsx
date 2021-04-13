@@ -131,7 +131,14 @@ const Hero = () => {
                   href='https://github.com/dogegarden'
                   target='_blank'
                   className='font-medium text-gray-500 hover:text-gray-900'>
-                  Github Organization
+                  Github
+                </a>
+
+                <a
+                  href='https://discord.com/invite/pPaXCRrVrh'
+                  target='_blank'
+                  className='font-medium text-gray-500 hover:text-gray-900'>
+                  Discord 
                 </a>
               </div>
             </nav>
