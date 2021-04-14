@@ -1,0 +1,82 @@
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-200%);
+    }
+
+    90% {
+      transform: translateX(1%);
+    }
+
+    100% {
+      transform: translate(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(200%);
+    }
+
+    100% {
+      transform: translate(0);
+    }
+}
+
+@keyframes slideInFromDown {
+    0% {
+      transform: translateY(200%);
+    }
+
+    100% {
+      transform: translate(0);
+    }
+}
+
+@keyframes slideInFromUp {
+  0% {
+    transform: translateY(-500%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes changeOpac {
+  0% {
+    opacity: 0.0;
+  }
+
+  65% {
+    opacity: 0.0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.previewImage {
+  animation: 2s ease-out 0s 1 slideInFromDown;
+}
+
+.providingToolsText {
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+.forDogehouseText {
+  animation: 2.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.DogeGardenLogoB {
+  animation: 1s ease-out 0s 1 slideInFromUp;
+}
+
+.DogeGardenLogoB:hover {
+  transform: scale(1.05);
+  transition-duration: 2s;
+}
+
+.descText {
+  animation: 3s ease-out 0s 1 changeOpac;
+}

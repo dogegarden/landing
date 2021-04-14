@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css';
+import '../haticus/components/index/hero.css';
 
 import Head from 'next/head';
 import { settings } from '../haticus/settings';
