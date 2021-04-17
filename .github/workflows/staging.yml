@@ -1,0 +1,27 @@
+name: Staging Deploy
+on:
+  push:
+    branches:
+      - staging
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.IP }}
+        username: ${{ secrets.USER }}
+        password: ${{ secrets.PRIVATE_KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          nvm use 14
+          cd /opt/staging/landing
+          git checkout staging
+          git fetch --all
+          git reset --hard staging/staging
+          npm install --save
+          npm run build
+          pm2 restart dogegarden-landing-s
