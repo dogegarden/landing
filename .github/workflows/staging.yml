@@ -2,7 +2,7 @@ name: Staging Deploy
 on:
   push:
     branches:
-      - master
+      - staging
 jobs:
 
   build:
@@ -21,7 +21,7 @@ jobs:
           cd /opt/staging/landing
           git checkout staging
           git fetch --all
-          git reset --hard statging/staging
+          git reset --hard staging/staging
           npm install --save
           npm run build
           pm2 restart dogegarden-landing-s
