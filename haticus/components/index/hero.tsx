@@ -136,6 +136,14 @@ const Hero = () => {
                     Documentation
                   </a>
                 </Link>
+
+                <a
+                  href='https://stats.dogegarden.net'
+                  target='_blank'
+                  className='font-medium text-gray-500 hover:text-gray-900'>
+                  Tracker 
+                </a>
+
                 <a
                   href='https://github.com/dogegarden'
                   target='_blank'
