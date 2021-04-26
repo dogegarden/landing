@@ -133,7 +133,7 @@ const Hero = () => {
                     Home
                   </a>
                 </Link>
-                <Link href='https://wiki.dogegarden.net'>
+                <Link href='https://wiki.dogegarden.net/'>
                   <a className='font-medium text-gray-500 hover:text-gray-900'>
                     Documentation
                   </a>
