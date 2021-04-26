@@ -1,6 +1,8 @@
+# LIVE STAGING SITE: https://staging.landing.dogegarden.net/
+
 ## DogeGarden Landing
 
-This is the DogeGarden landing page source code, located at https://dogehouse.xyz/.
+This is the DogeGarden landing page source code, located at https://dogegarden.net/.
 
 ### Tooling
 
