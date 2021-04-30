@@ -293,7 +293,7 @@ const Hero = () => {
             <a
               href='https://github.com/dogegarden/dogehouse-api'
               target='_blank'>
-              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase'>
+              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
                 DogeHouse-API
               </h3>
 
@@ -302,7 +302,7 @@ const Hero = () => {
             <a
               href='https://github.com/dogegarden/dogehouse.js'
               target='_blank'>
-              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase'>
+              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
                 DogeHouse.js
               </h3>
 
@@ -311,7 +311,7 @@ const Hero = () => {
             <a
               href='https://github.com/dogegarden/dogegarden-stats'
               target='_blank'>
-              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase'>
+              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
                 DogeGarden-Stats
               </h3>
             </a>
