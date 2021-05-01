@@ -293,31 +293,27 @@ const Hero = () => {
             <a
               href='https://github.com/dogegarden/dogehouse-api'
               target='_blank'>
-              <img
-                className='h-12'
-                src='/images/dogehouse-api.svg'
-                alt='DogeHouse API Logo'
-              />
+              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
+                DogeHouse-API
+              </h3>
+
             </a>
 
             <a
               href='https://github.com/dogegarden/dogehouse.js'
               target='_blank'>
-              <img
-                className='h-12'
-                src='/images/dogehouse.js.svg'
-                alt='DogeHouse.js Logo'
-              />
+              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
+                DogeHouse.js
+              </h3>
+
             </a>
 
             <a
               href='https://github.com/dogegarden/dogegarden-stats'
               target='_blank'>
-              <img
-                className='h-12'
-                src='/images/dogegarden-stats.svg'
-                alt='DogeGarden Stats Logo'
-              />
+              <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
+                DogeGarden-Stats
+              </h3>
             </a>
           </div>
         </div>
