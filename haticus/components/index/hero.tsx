@@ -286,7 +286,7 @@ const Hero = () => {
       </div>
       <div className='bg-ghc'>
         <div className='max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
-          <h2 className='text-center text-gray-400 text-sm font-semibold uppercase tracking-wide'>
+          <h2 className='text-center lg:pr-16 text-gray-400 text-sm font-semibold uppercase tracking-wide'>
             Responsible for great community tools
           </h2>
           <div className='mt-8 flex flex-col lg:flex-row items-center justify-center gap-y-8 lg:gap-y-0 lg:gap-x-16'>
