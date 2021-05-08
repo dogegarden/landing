@@ -289,8 +289,9 @@ const Hero = () => {
           <h2 className='text-center text-gray-400 text-sm font-semibold uppercase tracking-wide'>
             Responsible for great community tools
           </h2>
-          <div className='mt-8 flex flex-col lg:flex-row items-center justify-center gap-y-8 lg:gap-y-0 lg:gap-x-16'>
+          <div className='mt-8 flex flex-col lg:flex-row justify-center gap-y-8 lg:gap-y-0 lg:gap-x-16'>
             <a
+              className="flex-1 text-center"
               href='https://github.com/dogegarden/dogehouse-api'
               target='_blank'>
               <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
@@ -300,6 +301,7 @@ const Hero = () => {
             </a>
 
             <a
+              className="flex-1 text-center"
               href='https://github.com/dogegarden/dogehouse.js'
               target='_blank'>
               <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
@@ -309,6 +311,7 @@ const Hero = () => {
             </a>
 
             <a
+              className="flex-1 text-center"
               href='https://github.com/dogegarden/dogegarden-stats'
               target='_blank'>
               <h3 className='h-12 text-gray-400 text-4xl font-black uppercase hover:text-gray-300'>
